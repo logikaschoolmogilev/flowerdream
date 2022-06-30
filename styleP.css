@@ -1,0 +1,197 @@
+header {
+    display: flexbox;
+    font-family: semi-bold-italic;
+    background-color: #7B8CF0;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    display: flexbox;
+}
+
+header img {
+    width: 9%;
+    height: 9%;
+    padding-left: 5%;
+}
+
+header h1 {
+    color: white;
+    padding: 10px 20px 0px 0px;
+    float: right;
+}
+
+main {
+    margin-top: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    border: solid 1px #6494D9;
+    background-color: #6494D9;
+    border-radius: 50%;
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 110%;
+}
+
+.main {
+    margin: 150px;
+    position: relative;
+    left: 20px;
+}
+
+h1 {
+   text-align: center; 
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    border-bottom: black 2px solid;
+}
+
+.flower {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.flower h5 {
+    text-align: center;
+    background-color: #D099F0;
+    width: 50%;
+    margin: 0;
+    padding: 1%;
+    border: solid 2px black;
+}
+
+.flower div {
+    display: flex;
+    width: 100%;
+    background-color: #D099F0;
+    border: solid 2px black;
+    padding: 2% 0% 2% 4%;
+}
+
+.flower img {
+    width: 50%;
+    height: 100%;
+}
+
+.flower div p {
+    margin-left: 5%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.row div {
+    height: 80%;
+}
+
+.write p {
+   background-color: #F6F6F6;
+   border: solid 1px black; 
+   padding: 1%;
+   width: 20%;
+   height: 2%;
+   font-family: extra-light-italic;
+}
+
+.write img {
+    position: relative;
+    top: 5px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews article {
+    display: flex;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+.reviews article img {
+    width: 10%;
+    height: 10%;
+}
+
+.reviews h2 {
+    margin-left: 5%;
+}
+
+.people {
+    background-color: #F6F6F6;
+    padding: 1%;
+}
+
+.people p {
+    margin-left: 5%;
+}
+
+.star {
+    position: relative;
+    top: 40px;
+}
+
+.star1 {
+    position: relative;
+    top: 40px;
+    left: 20%;
+}
+
+footer {
+    display: flex;
+    background-color: #A672F8;
+    justify-content: space-around;
+}
+
+footer p {
+    color: white;
+}
+
+footer img {
+    width: 30%;
+    height: 30%;
+}
+
+.social {
+    display: flex;
+}
+
+.social article {
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+}
+
+.instagram {
+    width: 50%;
+    height: 50%;
+}
+
+.insta {
+    position: relative;
+    bottom: 57px;
+    text-align: center;
+}
